@@ -23,7 +23,10 @@ let package = Package(
             dependencies: [],
             path: "PerformanceBezier",
             exclude: ["Info.plist", "PerformanceBezier-Info.plist"],
-            publicHeadersPath: "."),
+            publicHeadersPath: ".",
+            swiftSettings: [
+                .unsafeFlags(["-suppress-warnings"]),
+            ]),
         .testTarget(
             name: "PerformanceBezierTests",
             dependencies: ["PerformanceBezier"],
