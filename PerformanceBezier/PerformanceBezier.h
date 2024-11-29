@@ -37,4 +37,9 @@
 #import <PerformanceBezier/UIBezierPath+Util.h>
 #import <PerformanceBezier/UIBezierPathProperties.h>
 #import <Foundation/Foundation.h>
+#import <PerformanceBezier/JRSwizzle.h>
+#import <PerformanceBezier/UIBezierPath+FirstLast.h>
+#import <PerformanceBezier/UIBezierPath+NSOSX_Private.h>
+#import <PerformanceBezier/UIBezierPath+Performance_Private.h>
+#import <PerformanceBezier/UIBezierPath+Uncached.h>
 #endif
